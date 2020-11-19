@@ -1,0 +1,176 @@
+START mpiBench v1.5
+0 : worker1
+1 : worker2
+2 : worker1
+3 : worker2
+4 : worker1
+5 : worker2
+6 : worker1
+7 : worker2
+8 : worker1
+9 : worker2
+10 : worker1
+11 : worker2
+12 : worker1
+13 : worker2
+14 : worker1
+15 : worker2
+16 : worker1
+17 : worker2
+18 : worker1
+19 : worker2
+20 : worker1
+21 : worker2
+22 : worker1
+23 : worker2
+24 : worker1
+25 : worker2
+26 : worker1
+27 : worker2
+28 : worker1
+29 : worker2
+30 : worker1
+31 : worker2
+32 : worker1
+33 : worker2
+34 : worker1
+35 : worker2
+36 : worker1
+37 : worker2
+38 : worker1
+39 : worker2
+40 : worker1
+41 : worker2
+42 : worker1
+43 : worker2
+44 : worker1
+45 : worker2
+46 : worker1
+47 : worker2
+48 : worker1
+49 : worker2
+50 : worker1
+51 : worker2
+52 : worker1
+53 : worker2
+54 : worker1
+55 : worker2
+56 : worker1
+57 : worker2
+58 : worker1
+59 : worker2
+Barrier             	Bytes:	       0	Iters:	   1000	Avg:	  9.6236	Min:	  9.6219	Max:	  9.6258	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	       0	Iters:	   1000	Avg:	  9.3551	Min:	  9.3530	Max:	  9.3572	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	       1	Iters:	   1000	Avg:	 15.6331	Min:	 15.6317	Max:	 15.6352	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	       2	Iters:	   1000	Avg:	 17.6811	Min:	 17.6795	Max:	 17.6827	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	       4	Iters:	   1000	Avg:	 16.4930	Min:	 16.4922	Max:	 16.4940	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	       8	Iters:	   1000	Avg:	 15.8104	Min:	 15.8095	Max:	 15.8113	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	      16	Iters:	   1000	Avg:	 14.0398	Min:	 14.0387	Max:	 14.0407	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	      32	Iters:	   1000	Avg:	 13.8722	Min:	 13.8714	Max:	 13.8729	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	      64	Iters:	   1000	Avg:	 14.3499	Min:	 14.3489	Max:	 14.3509	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	     128	Iters:	   1000	Avg:	 26.1880	Min:	 26.1861	Max:	 26.1893	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	     256	Iters:	   1000	Avg:	 16.7350	Min:	 16.7340	Max:	 16.7358	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	     512	Iters:	   1000	Avg:	 17.4973	Min:	 17.4953	Max:	 17.4999	Comm: MPI_COMM_WORLD	Ranks: 60
+Bcast               	Bytes:	    1024	Iters:	   1000	Avg:	 19.0208	Min:	 19.0193	Max:	 19.0220	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	       0	Iters:	   1000	Avg:	  9.3490	Min:	  9.3471	Max:	  9.3507	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	       1	Iters:	    815	Avg:	 40.9365	Min:	 40.9349	Max:	 40.9389	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	       2	Iters:	    770	Avg:	 42.7469	Min:	 42.7439	Max:	 42.7509	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	       4	Iters:	   1000	Avg:	 41.8083	Min:	 41.8073	Max:	 41.8094	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	       8	Iters:	   1000	Avg:	 42.7536	Min:	 42.7516	Max:	 42.7556	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	      16	Iters:	    866	Avg:	 46.4830	Min:	 46.4792	Max:	 46.4865	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	      32	Iters:	    641	Avg:	 51.5608	Min:	 51.5583	Max:	 51.5627	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	      64	Iters:	    574	Avg:	 64.3034	Min:	 64.3015	Max:	 64.3063	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	     128	Iters:	    468	Avg:	 84.1929	Min:	 84.1895	Max:	 84.1962	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	     256	Iters:	    198	Avg:	296.0591	Min:	296.0460	Max:	296.0746	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	     512	Iters:	    146	Avg:	332.9718	Min:	332.9594	Max:	332.9808	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoall            	Bytes:	    1024	Iters:	    121	Avg:	415.2259	Min:	415.1203	Max:	415.4715	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	       0	Iters:	    384	Avg:	125.0591	Min:	125.0526	Max:	125.0632	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	       1	Iters:	    404	Avg:	124.6149	Min:	124.6124	Max:	124.6161	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	       2	Iters:	    374	Avg:	125.6434	Min:	125.6376	Max:	125.6501	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	       4	Iters:	    359	Avg:	125.8868	Min:	125.8833	Max:	125.8911	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	       8	Iters:	    375	Avg:	127.4094	Min:	127.4010	Max:	127.4159	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	      16	Iters:	    359	Avg:	125.4226	Min:	125.4178	Max:	125.4276	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	      32	Iters:	    377	Avg:	128.0296	Min:	128.0262	Max:	128.0323	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	      64	Iters:	    380	Avg:	135.7430	Min:	135.7395	Max:	135.7469	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	     128	Iters:	    284	Avg:	150.0281	Min:	150.0187	Max:	150.0372	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	     256	Iters:	    264	Avg:	173.3352	Min:	173.3289	Max:	173.3448	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	     512	Iters:	    215	Avg:	206.1426	Min:	206.1315	Max:	206.1576	Comm: MPI_COMM_WORLD	Ranks: 60
+Alltoallv           	Bytes:	    1024	Iters:	    185	Avg:	264.8418	Min:	264.8260	Max:	264.8567	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	       0	Iters:	   1000	Avg:	  9.3861	Min:	  9.3838	Max:	  9.3882	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	       1	Iters:	   1000	Avg:	 19.5338	Min:	 19.5304	Max:	 19.5367	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	       2	Iters:	   1000	Avg:	 20.6418	Min:	 20.6387	Max:	 20.6446	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	       4	Iters:	   1000	Avg:	 20.7465	Min:	 20.7437	Max:	 20.7495	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	       8	Iters:	   1000	Avg:	 22.0171	Min:	 22.0146	Max:	 22.0197	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	      16	Iters:	   1000	Avg:	 22.3053	Min:	 22.3034	Max:	 22.3068	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	      32	Iters:	   1000	Avg:	 24.1008	Min:	 24.0985	Max:	 24.1033	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	      64	Iters:	   1000	Avg:	 28.0389	Min:	 28.0371	Max:	 28.0409	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	     128	Iters:	   1000	Avg:	 33.3945	Min:	 33.3936	Max:	 33.3955	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	     256	Iters:	    895	Avg:	 46.6679	Min:	 46.6648	Max:	 46.6711	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	     512	Iters:	    619	Avg:	 74.2576	Min:	 74.2556	Max:	 74.2611	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgather           	Bytes:	    1024	Iters:	     86	Avg:	578.6966	Min:	578.6756	Max:	578.7225	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	       0	Iters:	   1000	Avg:	  9.7022	Min:	  9.6989	Max:	  9.7049	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	       1	Iters:	    920	Avg:	 42.6702	Min:	 42.6678	Max:	 42.6726	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	       2	Iters:	    956	Avg:	 42.1546	Min:	 42.1537	Max:	 42.1555	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	       4	Iters:	    963	Avg:	 42.6228	Min:	 42.6195	Max:	 42.6254	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	       8	Iters:	   1000	Avg:	 43.1819	Min:	 43.1800	Max:	 43.1843	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	      16	Iters:	   1000	Avg:	 43.4100	Min:	 43.4076	Max:	 43.4130	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	      32	Iters:	   1000	Avg:	 44.2354	Min:	 44.2344	Max:	 44.2363	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	      64	Iters:	   1000	Avg:	 44.8022	Min:	 44.8003	Max:	 44.8042	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	     128	Iters:	   1000	Avg:	 45.7766	Min:	 45.7749	Max:	 45.7789	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	     256	Iters:	    932	Avg:	 50.2817	Min:	 50.2809	Max:	 50.2831	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	     512	Iters:	    762	Avg:	 62.6832	Min:	 62.6748	Max:	 62.6931	Comm: MPI_COMM_WORLD	Ranks: 60
+Allgatherv          	Bytes:	    1024	Iters:	    528	Avg:	 91.6084	Min:	 91.6042	Max:	 91.6164	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	       0	Iters:	   1000	Avg:	  9.3682	Min:	  9.3670	Max:	  9.3702	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	       1	Iters:	   1000	Avg:	 16.0766	Min:	 16.0743	Max:	 16.0791	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	       2	Iters:	   1000	Avg:	 16.1517	Min:	 16.1499	Max:	 16.1540	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	       4	Iters:	   1000	Avg:	 16.4599	Min:	 16.4569	Max:	 16.4629	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	       8	Iters:	   1000	Avg:	 17.0818	Min:	 17.0793	Max:	 17.0841	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	      16	Iters:	   1000	Avg:	 17.2811	Min:	 17.2786	Max:	 17.2841	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	      32	Iters:	   1000	Avg:	 18.4416	Min:	 18.4392	Max:	 18.4444	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	      64	Iters:	   1000	Avg:	 20.6406	Min:	 20.6381	Max:	 20.6442	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	     128	Iters:	   1000	Avg:	 21.9586	Min:	 21.9556	Max:	 21.9623	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	     256	Iters:	   1000	Avg:	 25.9993	Min:	 25.9970	Max:	 26.0026	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	     512	Iters:	   1000	Avg:	 32.2689	Min:	 32.2661	Max:	 32.2723	Comm: MPI_COMM_WORLD	Ranks: 60
+Gather              	Bytes:	    1024	Iters:	   1000	Avg:	 34.5998	Min:	 34.5901	Max:	 34.6242	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	       0	Iters:	   1000	Avg:	  9.4145	Min:	  9.4135	Max:	  9.4156	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	       1	Iters:	   1000	Avg:	 12.1472	Min:	 12.1448	Max:	 12.1500	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	       2	Iters:	   1000	Avg:	 13.8921	Min:	 13.8898	Max:	 13.8952	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	       4	Iters:	   1000	Avg:	 15.0955	Min:	 15.0932	Max:	 15.0981	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	       8	Iters:	   1000	Avg:	 16.0629	Min:	 16.0606	Max:	 16.0653	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	      16	Iters:	   1000	Avg:	 16.4599	Min:	 16.4580	Max:	 16.4627	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	      32	Iters:	   1000	Avg:	 17.2405	Min:	 17.2384	Max:	 17.2437	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	      64	Iters:	   1000	Avg:	 16.6059	Min:	 16.6027	Max:	 16.6087	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	     128	Iters:	   1000	Avg:	 20.5430	Min:	 20.5402	Max:	 20.5463	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	     256	Iters:	   1000	Avg:	 24.0613	Min:	 24.0594	Max:	 24.0643	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	     512	Iters:	   1000	Avg:	 27.2879	Min:	 27.1742	Max:	 27.3201	Comm: MPI_COMM_WORLD	Ranks: 60
+Gatherv             	Bytes:	    1024	Iters:	    980	Avg:	 30.4601	Min:	 30.4578	Max:	 30.4627	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	       0	Iters:	   1000	Avg:	  9.4567	Min:	  9.4546	Max:	  9.4590	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	       1	Iters:	   1000	Avg:	 14.6115	Min:	 14.6107	Max:	 14.6124	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	       2	Iters:	   1000	Avg:	 14.8488	Min:	 14.8481	Max:	 14.8503	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	       4	Iters:	   1000	Avg:	 15.4159	Min:	 15.4151	Max:	 15.4177	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	       8	Iters:	   1000	Avg:	 16.2502	Min:	 16.2494	Max:	 16.2514	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	      16	Iters:	   1000	Avg:	 16.8969	Min:	 16.8942	Max:	 16.8979	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	      32	Iters:	   1000	Avg:	 16.9483	Min:	 16.9472	Max:	 16.9495	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	      64	Iters:	   1000	Avg:	 18.1561	Min:	 18.1548	Max:	 18.1577	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	     128	Iters:	   1000	Avg:	 19.9780	Min:	 19.9767	Max:	 19.9798	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	     256	Iters:	   1000	Avg:	 23.6896	Min:	 23.6886	Max:	 23.6920	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	     512	Iters:	    967	Avg:	 45.8415	Min:	 45.8405	Max:	 45.8431	Comm: MPI_COMM_WORLD	Ranks: 60
+Scatter             	Bytes:	    1024	Iters:	    840	Avg:	 51.8011	Min:	 51.7993	Max:	 51.8022	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	       8	Iters:	   1000	Avg:	 18.9185	Min:	 18.9157	Max:	 18.9209	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	      16	Iters:	   1000	Avg:	 19.6132	Min:	 19.6114	Max:	 19.6152	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	      32	Iters:	   1000	Avg:	 20.3832	Min:	 20.3813	Max:	 20.3855	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	      64	Iters:	   1000	Avg:	 22.8266	Min:	 22.8231	Max:	 22.8302	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	     128	Iters:	   1000	Avg:	 24.7200	Min:	 24.7165	Max:	 24.7233	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	     256	Iters:	   1000	Avg:	 27.0494	Min:	 27.0470	Max:	 27.0522	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	     512	Iters:	   1000	Avg:	 30.3524	Min:	 30.3497	Max:	 30.3553	Comm: MPI_COMM_WORLD	Ranks: 60
+Allreduce           	Bytes:	    1024	Iters:	   1000	Avg:	 36.1062	Min:	 36.1035	Max:	 36.1090	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	       8	Iters:	   1000	Avg:	 16.0929	Min:	 16.0659	Max:	 16.1073	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	      16	Iters:	   1000	Avg:	 16.2776	Min:	 16.2754	Max:	 16.2806	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	      32	Iters:	   1000	Avg:	 16.7339	Min:	 16.7323	Max:	 16.7364	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	      64	Iters:	   1000	Avg:	 18.4520	Min:	 18.4495	Max:	 18.4549	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	     128	Iters:	   1000	Avg:	 20.3763	Min:	 20.3743	Max:	 20.3792	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	     256	Iters:	   1000	Avg:	 21.2539	Min:	 21.2518	Max:	 21.2565	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	     512	Iters:	   1000	Avg:	 23.6102	Min:	 23.6080	Max:	 23.6131	Comm: MPI_COMM_WORLD	Ranks: 60
+Reduce              	Bytes:	    1024	Iters:	   1000	Avg:	 27.3285	Min:	 27.3260	Max:	 27.3313	Comm: MPI_COMM_WORLD	Ranks: 60
+Message buffers (KB):	136
+END mpiBench
